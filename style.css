@@ -1,0 +1,994 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+
+}
+
+
+/* video */
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.stopfade {
+    opacity: .5;
+}
+
+
+.section1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.section1 .elements {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+
+}
+
+.section1 .elements .logo {
+    width: 60vw;
+    height: 30vh;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.section1 .elements .logo .image {
+    margin-top: 2vw;
+    width: 10vw;
+    height: auto;
+
+
+}
+
+.section1 .elements span {
+    font-family: "Poiret One", sans-serif;
+    color: whitesmoke;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+.section1 .elements #main {
+    width: 40vw;
+    transition: margin-left .5s;
+    padding: 16px;
+    display: flex;
+
+
+}
+
+/* SIDE NAV */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    opacity: 0.7;
+}
+
+.sidenav a {
+    font-family: "Poiret One", sans-serif;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+/* INTRODUCTION */
+
+.section1 .intro {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 50%;
+
+
+
+}
+
+.section1 .intro #Alternativet {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    width: 40vw;
+    ;
+    margin: 2rem;
+    align-content: flex-end;
+
+
+
+}
+
+h1 {
+    color: white;
+    font-weight: 100;
+    font-family: "Poiret One", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+
+}
+
+p {
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Poiret One", sans-serif;
+
+}
+
+
+#Alternativet a {
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    display: inline-block;
+    text-decoration: none;
+    background: #f7c445;
+    padding: 1.5rem;
+    transition: .6s background;
+    border-radius: 10%;
+
+}
+
+#Alternativet a:hover {
+    background: #cd9a1b;
+}
+
+
+/* SECTION 2 */
+
+#section2 {
+    color: black;
+    height: auto;
+
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    font-family: "Poiret One", sans-serif;
+    width: 100vw;
+
+}
+
+.map {
+    width: 100vw;
+    height: auto;
+
+}
+
+
+
+/*SECTION 4*/
+
+#section4 {
+    width: 100%;
+    height: auto;
+    background-color: #e7e7e7;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+#section4 h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 300%;
+    padding: 50px 20px 20px 20px;
+
+    font-family: 'Poiret One', sans-serif;
+    color: #000000;
+
+    position: relative;
+    flex-wrap: wrap;
+    /*border:1px solid blue;*/
+}
+
+#section4 #slogan {
+    width: 100%;
+    font-size: 150%;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+
+
+    font-family: 'Poiret One', sans-serif;
+    color: #000000;
+
+    position: relative;
+    flex-wrap: wrap;
+    /*border:1px solid blue;*/
+}
+
+
+#section4 .category {
+    width: 20vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border:1px solid blue;*/
+}
+
+#section4 .category .category_heading {
+    width: 100%;
+    font-size: 150%;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+
+
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+
+    position: relative;
+
+
+}
+
+#section4 .section_top {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    /*border:1px solid blue;*/
+}
+
+#section4 .section_middle {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+
+
+    /*border: 1px solid blue;*/
+}
+
+#section4 .section_bottom {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-bottom: 50px;
+
+
+    /*border: 1px solid blue;*/
+}
+
+/*IMAGES SECTION4*/
+
+#section4 .category img:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/*BUTTONS SECTION4*/
+
+#section4 button {
+    background: #f7c445;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 600;
+
+
+    text-align: center;
+}
+
+#section4 button:hover {
+    cursor: pointer;
+    background: #cd9a1b;
+    color: #fff;
+    font-weight: 500;
+}
+
+#section4 button:active {
+    background: #a2a2a2;
+    color: #000;
+    font-weight: 500;
+}
+
+
+/* section 3 */
+
+#section3 {
+    font-family: "Poiret One", sans-serif;
+    height: auto;
+    width: 100vw;
+    color: white;
+
+}
+
+.heading3 {
+    margin-top: 5rem;
+    align-items: center;
+    background-color: black;
+    opacity: 0.6;
+    padding: 5rem 5rem;
+}
+
+.bigcontainer {
+    margin-top: 5vh;
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.8;
+    padding: 30px 50px;
+    width: 50vw;
+    height: auto;
+    font-family: 'Poiret-One', sans-serif;
+    display: flex;
+
+}
+
+.newsletter {
+    display: block;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+
+
+
+}
+
+.hipster {
+    width: 40vw;
+    height: auto;
+
+}
+
+
+.newsletter .update {
+    text-align: center;
+}
+
+.newsletter .subscribe {
+    width: 100%;
+    display: flex;
+
+}
+
+.newsletter .email {
+    width: 70%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+
+}
+/*
+.newsletter .mail img {
+    width: 30%;
+    height: auto;
+    position: relative;
+    display: flex;
+}
+*/
+
+.buttom {
+    background: #f7c445;
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: 600;
+
+
+    text-align: center;
+
+}
+
+.buttom:hover {
+    border: none;
+    background: #cd9a1b;
+    cursor: pointer;
+    background: #cd9a1b;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+#section3 .bigcontainer .container input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+label {
+
+    font-family: "Poiret One";
+    font-size: 25px;
+}
+
+#section3 .bigcontainer .container input {
+    border: 3px solid #555;
+    width: 30vw;
+    height: auto;
+    font-size: 0.7em;
+    text-align: center;
+    justify-content: space-around;
+
+}
+
+input[type=submit]:hover {
+    background-color: black;
+}
+
+
+/* FOOTER */
+
+#footer {
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+#footer .logo_icons {
+    width: 30%;
+    height: auto;
+
+}
+
+#footer .logo_icons .logofooter {
+    width: 100%;
+    height: 50%;
+    padding-top: 2em;
+
+
+    position: relative;
+    padding-top: ;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border:1px solid blue;*/
+}
+
+#footer .logo_icons .logofooter img {
+    position: relative;
+    width: 70%;
+    height: auto;
+    /*border:1px solid blue;*/
+}
+
+
+
+#footer .footerlinks {
+    position: relative;
+    width: 30%;
+    height: auto;
+    margin-top: 0;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 20px;
+
+
+    display: inline-block;
+    text-align: center;
+
+    font-family: 'Roboto-Regular', sans-serif;
+
+
+    /*border:1px solid blue;*/
+}
+
+#footer .logo_icons .social_media {
+    width: 100%;
+    height: auto;
+    position: relative;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    display: inline-block;
+    text-align: center;
+
+}
+
+#footer .social_media img {
+    width: 70%;
+    align-content: center;
+
+}
+
+#footer .footerlinks a {
+    margin: 10px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    font-family: "Poiret One", sans-serif;
+
+}
+
+#footer .footerlinks a:hover {
+    color: #f1f1f1;
+}
+
+#footer .footerlinks .menu_pink_buttons {
+    position: relative;
+    height: auto;
+    width: 50%;
+
+}
+
+
+#footer .map {
+    position: relative;
+    width: 30%;
+    height: 50%;
+
+    padding-bottom: 50px;
+
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    display: inline-block;
+    text-align: center;
+
+    flex-wrap: wrap;
+    /*border:1px solid blue;*/
+}
+
+#footer .map h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Poiret One', sans-serif;
+}
+
+#footer .footerlinks h3 {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Poiret One', sans-serif;
+
+    margin-top: 0px;
+}
+
+
+#footer .map p {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Poiret One', sans-serif;
+
+    color: #818181;
+    display: block;
+
+
+}
+
+#footer .map img {
+    position: relative;
+    width: 70%;
+    height: auto;
+
+}
+
+
+
+/* MEDIA QUERY */
+
+/* 1024 */
+
+@media screen and (max-device-width: 1024px) {
+
+    .section1 .intro {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-content: left;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 0%;
+    }
+  h1 {
+    color: white;
+    font-weight: 100;
+    font-family: "Poiret One", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+
+}
+
+    #section4 h1{
+    color: black;
+    font-weight: 100;
+    font-family: "Poiret One", sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+
+    }
+
+}
+
+/* tablet */
+
+@media screen and (max-device-width: 768px) {
+    html {
+       width: 100%;
+        height: 100vh;
+        background-image: url(background.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        grid-area: header;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: black;
+
+    }
+
+
+
+.section1 .elements span {
+    font-family: "Poiret One", sans-serif;
+    color: whitesmoke;
+    display: flex;
+
+    }
+
+   .section1 .elements .logo .image {
+    margin-top: 2vw;
+    width: 15vw;
+    height: auto;
+    }
+
+p {
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Poiret One", sans-serif;
+
+}
+    .section1{
+        height: 90vh;
+    }
+    .section1 .intro #Alternativet {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2rem;
+    width: 70vw;
+    margin: 0;
+    align-content: flex-end;
+    }
+
+    .section1 .intro {
+    width: 80vw;
+    height: auto;
+    display: flex;
+
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 10%;
+
+}
+
+    #bgvid {
+        display: none;
+    }
+
+
+
+    /*Section 4*/
+    #section4 {
+
+    }
+
+    #section4 .category .category_heading {
+        font-size: 16px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .heading3 {
+    margin-top: 0rem;
+    align-items: center;
+    background-color: black;
+    opacity: 0.6;
+    padding: 2rem 2rem;
+    }
+
+    #footer {
+        background-color: #222;
+    }
+
+}
+
+
+/* mobile */
+
+
+@media screen and (max-device-width: 425px) {
+    html{
+        width: 100%;
+        height: 100vh;
+        background-image: url(background.jpg);
+        background-size: 120%;
+        background-repeat: no-repeat;
+        grid-area: header;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    #bgvid {
+        display: none;
+    }
+    .section1{
+        height:100vh;
+        width:100vw;
+        display:flex;
+    }
+
+   .section1 .intro {
+        margin-left:0;
+        margin-top:30%;
+    }
+
+    .section1 .elements #main {
+    width: 30vw;
+    transition: margin-left .5s;
+    padding: 10px 0px 0px 2px;
+    display: flex;
+    margin: 0;
+}
+     .section1 .intro #Alternativet {
+    width: 70vw;
+    margin: 50px 0px 0px 0px;
+    padding:2% 2% 2% 10%;
+    align-content: flex-end;
+    }
+
+     .section1 .elements .logo {
+    margin-top: 2vw;
+    width: auto;
+    height: auto;
+    align-content: flex-end;
+    }
+
+
+     .section1 .elements .logo .image {
+    margin-top: 15vw;
+    width: 25vw;
+    height: auto;
+    margin-left:40%;
+
+    }
+
+     h1{
+        font-size: 18px;
+    }
+
+     p{
+        font-size: 14px;
+    }
+
+
+
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+
+    div {
+        width: 70%;
+    }
+
+    /* section 4 */
+    .btn_s4 {
+        display: none;
+    }
+
+    #section4 .category .category_heading {
+        font-size: 14px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+      #section4 h1 {
+        font-size: 18px;
+    }
+
+     #section4 #slogan {
+        font-size: 14px;
+    }
+
+    #section4 .section_top {
+        padding-bottom: 0px;
+    }
+
+    #section4 .section_middle {
+        padding-bottom: 0px;
+    }
+
+    #section4 .section_bottom {
+        padding-bottom: 20px;
+    }
+
+    .container {
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.8;
+    padding: 0px 20px;
+    width: 50vw;
+    height: auto;
+    font-family: 'Poiret-One', sans-serif;
+
+}
+
+    .container{
+    width:100%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+    padding: 0px 50px;
+
+   flex-wrap: wrap;
+    }
+
+    .newsletter{
+        display:none;
+    }
+
+    #section3 .newsletter .update {
+  display:none;
+    }
+
+     #section3 .newsletter .hipster {
+  display:none;
+    }
+
+     #section3 .newsletter .email {
+  display:none;
+    }
+
+    #section3 .newsletter .update h1{
+        font-size: 90%;
+
+    }
+
+    #footer{
+        margin-top: 20px;
+    }
+
+     #footer .logofooter {
+        width: 150%;
+        height: auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    #footer .footerlinks {
+        display: none;
+    }
+
+    #footer .map {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-device-width: 425px) {
+     #section4 .category .category_heading {
+        font-size: 10px;
+}
